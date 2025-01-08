@@ -3,19 +3,32 @@
 
 **Gro.**
 
+**Today's Topics**
 
+* Learning Python 3 (Control FLow)
+
+
+
+
+You can use the `input()` syntax to prompt a user to give you an value for a variable. For example, `likes_snakes = input("Do you like snakes? ")` will ask the user Do you like snakes? And whatever the user responds as will be the input value for the variable `likes_snakes`. I'm not sure if the `input()` syntax stores everything as a string or not. I'll have to check. 
+
+
+
+__________________________
 Project 1 - Block Letters
 
 We basically created our first and last initials using ASCII art in block letters. It was pretty straight forward. I used a triple quotation to just put in my initials with a 5 x 7 chart. I'll paste the code here for reuse later. 
 
-Project 2 - 
+Project 2 - Receipts for Lovely Loveseats
+
+This lab was easier than the first lab lol. They gave us all the instructions but really we just set description and price values for 3 different items in a furniture shop. I personally chose to use the `+=` operator to add the number and string values up on two separate variables. We also had a sales tax which we added to the customer's total. Then we printed everything out. So nothing crazy. A copy of the code will be in my repo. 
 
 
 ## 01.07.2025
 
 **Today's Topics**
 
-* Learning Python 3 - Beginner
+* Learning Python 3 
 
 
 Two common errors that we encounter while writing Python are SyntaxError and NameError.
