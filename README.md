@@ -3,9 +3,46 @@
 
 **I'll fill in a description later on. Just sit down and watch me do my thang.**
 
+
+## 01.09.2025
+
 **Today's Topics**
 
-* Learning Python 3 (Control FLow)
+* Learning Python 3 (Lists)
+
+Lists are the same thing as arrays in MATLAB. You can put any type of value in a list and mix and match value types. Just separate everything with a comma. 
+
+When we do stuff like `random.randint()`, that `.randint()` portion is called a method. A method is a built-in functionality that we can use to create, manipulate and even delete our data. There are general types of methods. One is the `.append()` method which adds onto the end of a object or list. 
+
+We can add lists together (1 list plus another list) but we can't just add a value of any type to a list. It must be a list plus a list. Or you'll need to append the new value type onto the list. You can also use brackets `[]` to add it to the list as well. 
+
+The location of an element/value in a list is called its `index`. Remember, the first index value is 0. You can access an index value by doing `<list-name>[<index-#>]`. For example, `kings[3]` will give you the 4th value in the `kings` list. 
+
+Wow. So you can use negative numbers to access the elements at the end of the list. So if you do `kings[-1]`, it will get you the last element in the list. If you do `kings[-2]`, it will get you the second-to-last element in a list. And so fourth and so on. 
+
+You can also reassign values in a list by just taking the list name and index and then assign it a new value. 
+
+`.remove()` is another method that's popular. It will remove that index from the list and shrink the list down as well. If there are duplicate occurs of whatever you're removing, it will only remove the first occurrence. 
+
+A 2-D list is a list that contains both numbers and strings. This is like a list in a list though. The format is `heights = [["Noelle", 61], ["Ava", 70], ["Sam", 67], ["Mia", 64]]`. If you want to access a piece of information in this heights list (for example, Ava's heigh), you would do `heights[1][1]` which denotes the second index `[1]` and the second index of that index (also `[1]`). 
+
+Project 1 - Gradebook
+
+We basically did a bunch of list manipulation. This was a very easy project. More of a lab than a project but this was really easy. Just think adding lists and entries. Then using indexing, append, and remove to change entries. I think the most complicated thing I did was add to separate lists together in the table format that they listed in the lab. I did this by making the new list empty and adding each entry by the index of the other two lists. I see they were trying to catch me up because the next tasks said "Print out the tables. Do they look like you thought they would?" I know if I would've just added the lists, it would've had the classes listed first and the grades listed second. You want to have the class and then grade for each class. So that was my way around that. My code will be in the `Gradebook.py` file in this repo. 
+
+
+
+
+
+
+
+
+__________________________
+## 01.08.2025
+
+**Today's Topics**
+
+* Learning Python 3 (Control Flow)
 
 We know what flow control is. This should be a review and for you to hammer down how these loops and statements work in Python. Boolean statements are either true or false and they're verifiable. 
 
@@ -59,7 +96,14 @@ Project 4 - Sal's Shipping
 This one was also pretty easy. I was able to solve it pretty much by myself besides something I overlooked with the pricing. But we had a company that had 3 different shipping methods that varied in price based on the weight. So we need to create 3 different if statements to choose the shipping method and how much that method would cost based on weight. Then it should print that shipping total. So you also had to predefine a weight and a variable for the total parameter. It was pretty straightforward. You can check out my code in the repo. 
 
 
-__________________________
+In Python, there are many different ways of classifying errors, but here are some common ones:
+
+SyntaxError: Error caused by not following the proper structure (syntax) of the language.
+NameError: Errors reported when the interpreter detects a variable that is unknown.
+TypeError: Errors thrown when an operation is applied to an object of an inappropriate type.
+
+
+
 Project 1 - Block Letters
 
 We basically created our first and last initials using ASCII art in block letters. It was pretty straight forward. I used a triple quotation to just put in my initials with a 5 x 7 chart. I'll paste the code here for reuse later. 
@@ -68,7 +112,7 @@ Project 2 - Receipts for Lovely Loveseats
 
 This lab was easier than the first lab lol. They gave us all the instructions but really we just set description and price values for 3 different items in a furniture shop. I personally chose to use the `+=` operator to add the number and string values up on two separate variables. We also had a sales tax which we added to the customer's total. Then we printed everything out. So nothing crazy. A copy of the code will be in my repo. 
 
-
+__________________________
 ## 01.07.2025
 
 **Today's Topics**
