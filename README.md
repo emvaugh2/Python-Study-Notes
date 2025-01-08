@@ -7,10 +7,48 @@
 
 * Learning Python 3 (Control FLow)
 
+We know what flow control is. This should be a review and for you to hammer down how these loops and statements work in Python. Boolean statements are either true or false and they're verifiable. 
 
+![Image](FlowControl1.png)
+
+Relational operators - compare two values and returns `True` or `False`. So you have the equals operator `==` which will return `True` if both values are the same. Otherwise, `False`. The not equals operator `!=` will return `True` if the values are not equal to each other. Because that's a true statement. 
+
+`True` and `False` are a special variable type called bool. Also, you can use the `type()` syntax to get the type of value for you input such as string, float, integer, bool, etc. 
+
+Our `if` statements are in the format of
+
+if <statement>:
+  <action>
+
+Where `if` kicks off the conditional statement and `:` is the "then". Say this every time you write these statements.
+
+Okay remember we have more relational operators. We have `>`, `>=`, `<`, and `<=`. 
+
+Now we have Boolean operators: `and`, `or`, and `not`. Lets start with the first one. The `and` will combine two Boolean expressions and resolve to `True` if both Boolean expressions are true. The `or` will evaluate as `True` as long as one of the expressions is true. If they are both `False`, then it will return `False`. Lastly, the `not` operator reverses the boolean value. So I would evaluate the expression first and whatever that expression is (True or False), take the opposite of that. 
+
+Remember, if an `if` statement is `False`, it won't run. 
+
+Switch-case statements and match-case statements are the same thing. But think of them as a cleaner way to write if-else statements with a bunch of elifs. Here's the syntax below:
+
+match expression:  
+    case value_1:  
+        # code to execute when expression equals value_1  
+    case value_2:  
+        # code to execute when expression equals value_2  
+    case value_3:  
+        # code to execute when expression equals value_3  
+    case value_4:  
+        # code to execute when expression equals value_4  
+    case value_N:  
+        # code to execute when expression equals value_N  
+    case default:  
+        # code to execute when expression isn't equal to any of the values 
+
+Only one case block is executed in the entire match block for any given value of expression. Once a case block is executed, the program’s control flow moves out of the match block.
 
 
 You can use the `input()` syntax to prompt a user to give you an value for a variable. For example, `likes_snakes = input("Do you like snakes? ")` will ask the user Do you like snakes? And whatever the user responds as will be the input value for the variable `likes_snakes`. I'm not sure if the `input()` syntax stores everything as a string or not. I'll have to check. 
+
 
 
 
