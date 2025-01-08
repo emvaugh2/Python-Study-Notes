@@ -1,7 +1,7 @@
 # Python-Study-Notes
 
 
-**Gro.**
+**I'll fill in a description later on. Just sit down and watch me do my thang.**
 
 **Today's Topics**
 
@@ -53,6 +53,10 @@ You can use the `input()` syntax to prompt a user to give you an value for a var
 Project 3 - Magic 8-Ball
 
 We created a script that would generate random answers like a Magic 8-Ball. We first had to import the `random` package for Python in order to use the `random.randint()` command. We used this to generate a number from 1 - 9 for each of the random answers the 8-Ball would give for the user's yes or no question. I used a match case statement for all 9 answer choices. I put the script in this repo. I would like to tailor the script to actually ask the user their name and question but I don't think these projects have an IDE. They just run the script. 
+
+Project 4 - Sal's Shipping
+
+This one was also pretty easy. I was able to solve it pretty much by myself besides something I overlooked with the pricing. But we had a company that had 3 different shipping methods that varied in price based on the weight. So we need to create 3 different if statements to choose the shipping method and how much that method would cost based on weight. Then it should print that shipping total. So you also had to predefine a weight and a variable for the total parameter. It was pretty straightforward. You can check out my code in the repo. 
 
 
 __________________________
