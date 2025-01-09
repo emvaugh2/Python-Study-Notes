@@ -31,9 +31,29 @@ Project 1 - Gradebook
 We basically did a bunch of list manipulation. This was a very easy project. More of a lab than a project but this was really easy. Just think adding lists and entries. Then using indexing, append, and remove to change entries. I think the most complicated thing I did was add to separate lists together in the table format that they listed in the lab. I did this by making the new list empty and adding each entry by the index of the other two lists. I see they were trying to catch me up because the next tasks said "Print out the tables. Do they look like you thought they would?" I know if I would've just added the lists, it would've had the classes listed first and the grades listed second. You want to have the class and then grade for each class. So that was my way around that. My code will be in the `Gradebook.py` file in this repo. 
 
 
+We have more methods to take note of. 
 
+First one up is `.insert()`. You can use this as a method for any list variable that you have. It has two inputs: the index and the value you want to place at that index. For example, if you have `new_list.insert(2, "Edward") then the value Edward will be placed in the third spot on the list and the list will automatically shift over. So whatever was in the first and second index [0 and 1], they'll stay put. Whatever was in the 3rd index [2], that will be shifted to the 4th index [3]. 
 
+Next is `.pop()`. You use this to remove an element from a list. This is slightly different than `.insert()` because 1.) if you don't specify an index inside the paratheses, it will just remove the last value in the list and 2.) this actually stores the value that was removed. So technically you can assign a variable to the `.pop()` command and the variable will store it. The only input you need for this command is the index number that you want to remove. So for example, you can do `new_list.pop(2)` and it will remove the 3rd value in the string. Also, you can do `third_value = new_list.pop(2)` to store that value if you wanted to. 
 
+Next, the `range()` built in function. This isnt a method so you will not append it onto a list or something. `range()` will create a list of consecutive integers starting from 0 all the way to one number BEFORE the number you put in. So if you did `range(10)`, it will go from 0 to 0. This will create a list so you have to assign a variable to this output. I think you can also specify a starting value too so just keep your mind open to more possibilities. 
+
+The `range()` function creates a range object so it's not a typical list. I'm not exactly sure what a range object is though. Oh apparently to use it like a list, we have to convert this range object into a list using the `list()` built-in function. Think of it like when you have to use the `str()` command to convert an integer into a string. 
+
+Okay I was right. `range()` is flexible. You can have 2 inputs which will give your function the value you want to start at and then right before the number you want to end at. If you give it a third value, that number will be the distance between numbers in a list. For example if you have `range(1,10,2)` then your output would be [1, 3, 5, 7, 9]. 
+
+Next, we have the `len()` built-in function which is short for length. This will tell you how long a list is. Just put your list inside the paratheses. 
+
+Next, we have slicing which I'll show you how ot do that. Slicing is taking a portion of a list. That's it. Say we only want values 1 - 5 (so index 0 - 4). There's a way to take that from a list and store it into a new list. Lets say you have the original list which is `kings` and it's 10 values long. We only want 1 - 5. So we would do `kings[0:5]` which is weird because you would think this inclues the 5th index. This syntax says go from the 0 index all the way up to the 5th index but not including the 5th index. So that second number will always be one index number pass what you're looking to collect. 
+
+You can do even more with it though. You can do `list_name[:n]` which you can insert whatever number you want for n. This will slice your list from the first index all the way up to the index you specified (so right before that index number). You can also do `list_name[-n:]` which will take the index you specified (so remember, negative numbers start from the end of the list) and slice the list from that number up to the end of the list. You can also do `list_name[:-n]` which is pretty similar to the first one just it stops at the number you listed (which counts backwards from the end of the list). 
+
+Next, we have the `.count()` method. This will tell you the amount of occurrences in a list for whatever value you place in the paratheses. This method returns a value so you can store it in a variable if you want. You can also use this to see the occurrences in a 2-D list. Just put your value in the paratheses. 
+
+Lastly, we have the `.sort()` method. We can use this to sort a list in numerical or alphabetical order. This method doesn't return a value. It just automatically modifies the list. Also, you can use `.sort(reverse=True)` to sort in reverse (so Z to A or 9 to 0). There's also a built-in function for `sorted()`. This will take a list that you have an do the same sorting but will assign it to a variable. For example, `sorted_cities = sorted(cities)` which sorts the values in the list `cities` and assigns to the new list `sorted_cities`. 
+
+Project 2 - Len's Slice
 
 
 
