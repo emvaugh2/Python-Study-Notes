@@ -55,6 +55,10 @@ Lastly, we have the `.sort()` method. We can use this to sort a list in numerica
 
 Project 2 - Len's Slice
 
+This project was just incorporating everything we've done with lists with the methods and built-in functions. Nothing to really see here but you can see my code in the `LensSlicing.py` file in this repo. 
+
+
+
 
 
 __________________________
