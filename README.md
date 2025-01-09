@@ -3,7 +3,40 @@
 
 **I'll fill in a description later on. Just sit down and watch me do my thang.**
 
+## 01.10.2025
 
+**Today's Topics**
+
+* Learning Python 3 (Loops)
+
+Pretty familiar with these as well. But lets see what I can learn. 
+
+Anatomy of a Python `for` loop:
+
+for <temporary variable> in <collection>:
+  <action>
+
+The temporary variable is arbitrary and doesn't need to be defined beforehand. Think of this as `i` in MATLAB but it can be anything. It can be ingredient, game, horse, n, whatever you want it to be. I'm used to `i` being predefined as well. I guess it will just continue to run through the list no matter what you put. 
+
+More from Chat GPT, the temporary variable is only used in the loop. It won't have any value after the loop is done. The loop iterates for however long you specify it to. If you iterate over a list of 5 values, the loop will iterate 5 times. If you give it a range from 0 - 9 using the range command, it will iterate 9 (or 10?) times. The temporary variable will take on each iteration value of the list you provide. So if your arbitrarily named temp variable is `acc` and you have a list named `acceleration`, for the first iteration, `acc = acceleration[0]`. For the second iteration, it will be `acc = acceleration[1]`. And so forth and so on. You don't even always need a temp variable but that's how it works in iterations. The temp variable values are directly tied to the <collection> values. Whether that's a list, range, string, whatever. Each value in the collection is tied to the first, second, third, etc values of the temp variable. The temp variable takes on those values. 
+
+Anatomy of a Python `while` loop:
+
+while <conditional statement>:
+  <action>
+
+`break` statements are for loops (both for and while). They do not apply to if statements although they can be used in if statements to break the for or while loop that incases that statement. 
+
+`continue` statements makes the loop start back from the beginning of the loop code but it moves to the next iteration. So if a condition is met into the loop and you hit continue, the loop won't read any of the code after the continue statement. It will start back from the top at the next iteration. 
+
+I think nested loops are just loops inside of other loops. I'll ask Chat GPT. 
+
+List comprehensions are actually pretty cool. It's like writing a quick, mini loop into your list to do computations. Definitely revisit this. For example, `grades = [90, 80, 62, 76, 74, 89, 48, 57`. You can add 10 to all of these grades by doing `scaled_grades = [10 + score for score in grades]`. You can also use `if-else` statements within these list comprehensions right along with the for loops too. Very nice. I'll paste some examples in a second. 
+
+Project - Carly's Clippers
+
+
+__________________________
 ## 01.09.2025
 
 **Today's Topics**
@@ -58,7 +91,9 @@ Project 2 - Len's Slice
 This project was just incorporating everything we've done with lists with the methods and built-in functions. Nothing to really see here but you can see my code in the `LensSlicing.py` file in this repo. 
 
 
+Tuples - a special type of list. They can't be modified after you create them. More memory efficient. You can create a tuple just like a list but you use the `()` instead of the `[]`. 
 
+You can use the `zip()` command to pair two lists together, each index paired with the corresponding index from the other list. This creates a zip object. You can turn this zip object into a list by using `list()` where the input would be the zip output. This seems useful but it creates a tuple and not a list. I wonder if there's a list version of this. 
 
 
 __________________________
