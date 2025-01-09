@@ -33,6 +33,31 @@ I think nested loops are just loops inside of other loops. I'll ask Chat GPT.
 
 List comprehensions are actually pretty cool. It's like writing a quick, mini loop into your list to do computations. Definitely revisit this. For example, `grades = [90, 80, 62, 76, 74, 89, 48, 57`. You can add 10 to all of these grades by doing `scaled_grades = [10 + score for score in grades]`. You can also use `if-else` statements within these list comprehensions right along with the for loops too. Very nice. I'll paste some examples in a second. 
 
+`This is without the list comprehesion. It doubles all the negative numbers in the list and puts them in a new list.`
+
+numbers = [2, -1, 79, 33, -45]
+only_negative_doubled = []
+
+for num in numbers:
+  if num < 0: 
+    only_negative_doubled.append(num * 2)
+
+print(only_negative_doubled) 
+
+`This is with the list comprehension`
+
+numbers = [2, -1, 79, 33, -45]
+negative_doubled = [num * 2 for num in numbers if num < 0]
+print(negative_doubled)
+
+`This takes it a step further.`
+
+numbers = [2, -1, 79, 33, -45]
+doubled = [num * 2 if num < 0 else num * 3 for num in numbers ]
+print(doubled)
+
+
+
 Project - Carly's Clippers
 
 
