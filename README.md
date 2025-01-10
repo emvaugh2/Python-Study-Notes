@@ -3,6 +3,16 @@
 
 **I'll fill in a description later on. Just sit down and watch me do my thang.**
 
+## 01.12.2025
+
+**Today's Topics**
+
+* Learning Python 3 (Strings & Python Code Challenge)
+
+
+
+
+
 ## 01.11.2025
 
 **Today's Topics**
@@ -24,9 +34,22 @@ All values calculated in your function will not leave your function. Once you ca
 
 You can return multiple values by separating them by commas. For example, `return budget, expense, credit_card_balance`. You can store those values by listing out three variable names like `money, debt, CC = flight()` where flight is the function that will return budget, expense, and credit_card_balance values. Money will take on the value of budget, debt will take on the value of expense, and CC will take on the value of credit_card_balance. I feel like you can also create an empty list and store them there. Maybe you can also do the `.append` method too. 
 
+
 Also, there are different ways to define arguments in your function. You can make them have a default value. You can tell your function exactly which variables you want to assign a value to so the position of the argument doesn't matter when you're passing arguments to it. There are positional arguments, keyword arguments, and default arguments. 
 
 There are built-in functions and user defined functions. 
+
+The `map()` function allows you to use a function over multiple iterables (so values in a list). Say you have a list of numbers called `numbers` and a function called `double` which just doubles the number. The function returns the value as well. You can iterate over the list of numbers by doing `doubled_numbers = map(double, numbers)`. You can use this for built-in functions too. 
+
+Lambda functions are quick functions we can spin up without having to go through the normal syntax. The syntax for a lambda function is `lambda <parameter>: <expression>, <argument`. For example, if we have an expression that squares a number so `x ** 2` which is the equivalent of x^2. That would be our expression. Our parameter would be x because that's the variable we are using in our expression. The argument would be the value we feed to the variable (lets say 4). So the lambda function would like like `lambda x: x ** 2, 4` which would return a value of 16 since 4^2 is 16. Your argument can be a list as well. 
+
+You can use `map()` functions and lambda functions together. Just put the lambda function into the map function. Now I don't know what type of object the `map()` function returns but I'm noticing they're encasing the `map()` function in a `list()` function (so `list(map())` ) so this leads me to assume that you need to convert your `map()` output to a list. Just like with the `zip()` function zip object. Yes I just came across this sentence: "The `map()` function in Python returns a map object, which is an iterator." I'm not entirely sure what an iterator is but I was right about the map object. 
+
+An interator is an object that enables you to iterate through a collection of items, like a list, one element at a time. A map object does not immediately compute or store all the results. Instead, it computes each result on demand, making it memory-efficient. Lets break this down. In a normal `for` loop that you want to iterate over, you may have already created a list or two. Actually, you have to create these variables upfront to feed to your loop. So say you have a list of numbers called `numbers = [1, 2, 3, 4]`. You feed this to your loop to get your desired result (say x squared so `x ** 2`). You already created the list of numbers. Your device has to store all of these values first which uses up memory. With a function like `map()`, you pass these values to your function or lambda function if you're using that but the computer does it one by one and it does it at the time of you calling the `map()` function. It's less taxing on your resources because you don't have to pre-store the list and you can do each iteration one-by-one as they come. 
+
+Project - Getting Ready for Physics Class
+
+We basically had to create a bunch of functions to compute Fahrenheit to Celsius, Celsius to Fahrenheigh, force, energy, and work. Now I loved this because this was like a very basic version of what I did in college. All of the equations were nostalgic. I didn't use any lambda functions here. Just normal functions which I also learned you don't have to assign a variable to your `return` statement. You can just put the operation there. We also used out energy function within our work function so it was nice to see a nested function. 
 
 
 ## 01.10.2025
