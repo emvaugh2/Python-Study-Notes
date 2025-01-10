@@ -9,7 +9,24 @@
 
 * Learning Python 3 (Functions)
 
+A functin is a convenient way to group our code into reusable blocks. A function contains a sequence of steps that can be performed repeatedly throughout a program without having to repeat the code. 
 
+def function_name():
+  <define function tasks here>
+
+The `def` keyword indicates the beginning of a function. It's also called the function header. It's followed by the name of the function (function_name). The parentheses can hold input values. In this example, we have no parameters. We also need a colon `:` at the end of our function name. Then we can put statements after the function to make up our function. 
+
+The process of executing the code inside the body of a function is known as calling it. To call a function in Python, type out its name followed by the parentheses. You can only call a function AFTER it has been defined in your code. 
+
+Difference between parameter and argument: The parameter is what you define when you create the function. It's literally a variable in the defintion of a function. So `def travel(destination):` is the start of a function and `destination` is the parameter. An argument is the actual value you pass to the function when you're using the function. It would be real value of the `destination` parameter. So when you call a function `travel("Japan")`, you're passing the argument `"Japan"` to the function. The parameter takes on the argument value. 
+
+All values calculated in your function will not leave your function. Once you call it, your function does its thing but it won't give you any values. If you want your function to spit out a value that you can assign to a variable, you'll have to include `return <insert value or variable you want>` at the end of the function. That way, you can low key create a variable and make it equal to your function. Your function will run and the return value will be given to the variable. Then you can print it and see. This is called a returned function value. 
+
+You can return multiple values by separating them by commas. For example, `return budget, expense, credit_card_balance`. You can store those values by listing out three variable names like `money, debt, CC = flight()` where flight is the function that will return budget, expense, and credit_card_balance values. Money will take on the value of budget, debt will take on the value of expense, and CC will take on the value of credit_card_balance. I feel like you can also create an empty list and store them there. Maybe you can also do the `.append` method too. 
+
+Also, there are different ways to define arguments in your function. You can make them have a default value. You can tell your function exactly which variables you want to assign a value to so the position of the argument doesn't matter when you're passing arguments to it. There are positional arguments, keyword arguments, and default arguments. 
+
+There are built-in functions and user defined functions. 
 
 
 ## 01.10.2025
