@@ -60,6 +60,10 @@ print(doubled)
 
 Project - Carly's Clippers
 
+Okay I want to first say that I'm proud of myself for working through all these loops. I haven't written any real loops since college and while I brushed up on this again back in 2020, it's been a while. I'm not familiar with list comprehensions too and I think I did a hell of a job. But that's all this project was based on. We had to do a list of list manipulation using for loops and if statements mixed with list comprehensions. The last one gave me some trouble but maybe it's because I haven't eaten today (it's 6pm). But I had to create a new list by taking all the values from a price list that were under $30 and print each haircut that was associated with that under $30 price using a list comprehension. Not very difficult but I didn't truly know how to go about it. There was a hint in the description so I used that and just wrote the code until it made sense to me. I got the right answer. You can check out my code in this repo under the file `CarlysClippers.py`. 
+
+
+
 
 __________________________
 ## 01.09.2025
