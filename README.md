@@ -7,7 +7,9 @@
 
 **Today's Topics**
 
-* Learning Python 3 (Strings & Python Code Challenge)
+* Learning Python 3 (Python Code Challenge)
+
+I'm not really taking notes on this. I'm just going through the challenges. This is actually taking longer than the prescribed time that they said on Codecademy but that's okay. I've only struggled with 2 of the 20 so far. I've only gotten 1 wrong. 
 
 
 
