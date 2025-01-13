@@ -3,6 +3,13 @@
 
 **I'll fill in a description later on. Just sit down and watch me do my thang.**
 
+## 01.13.2025
+
+**Today's Topics**
+
+* Learning Python 3 (Python Code Challenge)
+
+
 ## 01.12.2025
 
 **Today's Topics**
