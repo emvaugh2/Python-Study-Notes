@@ -10,11 +10,34 @@
 
 * Learning Python 3 (Strings)
 
+Alright there are two sections for this for a total of 3 hours and 40 minutes of material. So it's going to take a while to get through this. 
+
+A string can also be thought of as a list of characters. Each character is an index in your string. You reference each letter just like you do a list with the `[]` brackets. 
+
+If you use `len.()` to found the length of a string, this also takes into account the spaces in the string. So be aware of this. 
+
+Immutable - unable to change it once it is created. Strings are immutable (which is funny because lists are mutable). So strings are a special class of list. You can not change them. 
+
+Just like in Linux, you have the escape character `\`. So for example, whenever you end off a single or double quotation, you conclude that string. You can't do `string_word = "I need to quote"this saying here""` because those extra double quotes are going to end the variable and cause that weird variable in the middle. It's a syntax error. If you want to include those double (or single) quotes in the variable without Python assuming you want to end the variable, you use the escape character. The escape character tells Python "Treat this like a normal character, not a syntax character". Therefore, if you want the escape character in front of the double quote `\"`, Python will just read the double quota as a character just like S or p or `.`. Just keep this in mind. 
+
+Strings have a special syntax command called `in`. This checks if one string is a part of another string. You can do `letter in word` and it will return a boolean answer of True or False. This works on letters and entire words in strings. Or entire strings in strings. 
+
+Python comes with built-in string methods that give you the power to perform complicated tasks on strings very quickly and efficiently. They have the format: `string_name.string_method(arguments)`. For example, `'Hello world'.lower()` will yield `'hello world'`. The first three will be `.lower()`, `.upper()`, and `.title()`. These will make the entire string lowercase, uppercase, or capitalize the first letter in every word of the string. 
+
+String methods create new strings. They do not change the original string. 
+
+
+
+
+
+
 ## 01.13.2025
 
 **Today's Topics**
 
 * Learning Python 3 (Python Code Challenge)
+
+Okay I finished up the second half of this. The Loop coding challenges gave me the most run for my money but it was only about 3 of them that gave me some problems. Or at least it took me a second to work through them. All of the function coding challenges were easy. The list coding challenges gave me a few index errors (which were my fault because I kept forgetting 0 is an index when computing the `range()` function) but overall I was pretty good. Lets move onto strings. 
 
 
 ## 01.12.2025
