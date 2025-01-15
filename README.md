@@ -12,6 +12,10 @@
 
 We'll finish up strings today. I want to get through the Coding Challenge for Strings (so I'm skipping to the end for a bit but I want to make sure all these methods don't escape me before I get to it) and I have to finish the "Project". So we'll focus on that and if we have more time, we'll move to the next chapter (Modules). 
 
+I went through both the Strings and Strings (Advanced) section of the Python Coding Challenges. These were way easier than I thought they would be. The Flow / Loop ones were by far the hardest which is weird because I have the most experience with those. 
+
+
+
 
 ## 01.14.2025
 
