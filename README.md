@@ -3,6 +3,15 @@
 
 **I'll fill in a description later on. Just sit down and watch me do my thang.**
 
+## 01.15.2025
+
+**Today's Topics**
+
+* Learning Python 3 (Strings)
+
+
+We'll finish up strings today. I want to get through the Coding Challenge for Strings (so I'm skipping to the end for a bit but I want to make sure all these methods don't escape me before I get to it) and I have to finish the "Project". So we'll focus on that and if we have more time, we'll move to the next chapter (Modules). 
+
 
 ## 01.14.2025
 
