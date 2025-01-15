@@ -26,8 +26,42 @@ Python comes with built-in string methods that give you the power to perform com
 
 String methods create new strings. They do not change the original string. 
 
+You can use `.split()` to take every word in a string and create a list with each element in the list being each word in the string. So if you have `random_string = "I go to school."` and split it up, you'll get `random_list = random_string.split() = ["I", "go", "to", "school."]`. The delimiter is automatically spaces unless specified otherwise. The delimiter can be anything such as a space, comma, colon, or even a letter or another string. Think of `.split()` as removing whatever that delimiter is. So if the delimiter is `"n"`, it will split the strings at the n's and also remove the n's. 
 
+We also have escape sequences just like the escape character. So with the character, we wanted to make sure we stayed in our string no matter if we put some additional quotation marks in our string. An escape sequence is still in the same vein as the `.split()` method though. It allows us to split the string up at specific places such as a newline or a horizontal tab. `\n` is for a newline and `\t` is for a horizontal tab. So if you do `random_string.split('\n')`, then the output would be the string that you have separated (or split) at each line break. Same thing for the tab. 
 
+We'll use `.join()` to put strings together with a given delimiter. The syntax is backwards compared to the `.split()` syntax. You have `'delimiter'.join(list_you_want_to_join)`. You can use commas as the delimiter to get comma-separated values (CSV). You can also use escape sequences as the delimiter which is how you can break these different values into different lins. 
+
+You can use `.strip()` (STRIP, not SPLIT) to get rid of leading and trailing spaces in a value. It won't get rid of the spaces in the middle of the string element. Just all the ones before and after it. You can do this with different characters too such as "!" and the such. 
+
+I'm going to forget all of this syntax. It's a lot. I'm going to have to review this. 
+
+Now we have the `.replace()` method which takes two arguments and replaces each instance of the first argument with the second argument. It replaces them. The syntax is `string_name.replace(substring_being_replaced, new_substring)`. You can also do this with spaces and commas and stuff. The world is yours. Don't limit your solutions. 
+
+Now you have the `.find()` string method. This will take a string and will find the first index that the value you're looking for starts on. Whether you supply the method a letter, series of letters, or a whole word, it will find the first index value of when that argument is found. Yes, it counts indices from 0 all the way up to whatever so this can be a very large number. Syntax is `print('smooth'.find('t'))     # => '4'`
+
+Now you have the `.format()` method. This is like an easier way to concatenate strings or whatever. Add strings together. Usually we use the formm `"I like " + str(favorite_cake) + " with " + str(favorite_ice_cream).` which can make things hard to read (not legible) and just clunky. We can use the `.format()` method to tell the code where to automatically add these values into a line. The syntax is 
+
+def favorite_song_statement(song, artist):
+  return "My favorite song is {} by {}.".format(song, artist)
+
+print(favorite_song_statement("Smooth", "Santana"))
+(which will spit out) "My favorite song is Smooth by Santana."
+
+So wherever you put the curly brackets, that's where those arguments will go. You can kind of picture it a little better when reading your code. You can pass as many arguments as you want to the function as long as you have the same amount of curly brackets. 
+
+You can take it a step further by using this syntax:
+
+def favorite_song_statement(song, artist):
+  return "My favorite song is {song} by {artist}.".format(artist=Santana, song=Smooth)
+
+So you can specify exactly what should pop up where. It doesn't even have to be in order as you can see from above. I actually like this even better. Might do this instead of doing that + concatenate bull jive. 
+
+Lord this exercise at the end is a little difficult to think through hahahaaa. I'm glad I have instructions although I have to come up with the code myself. This makes me appreciate Power BI or whatever people are using to scrub data even more. I see how crazy this can get doing this by hand.  
+
+Project - Thread Shed
+
+I already know this is going to be a nightmare. 
 
 
 
