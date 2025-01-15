@@ -3,6 +3,15 @@
 
 **I'll fill in a description later on. Just sit down and watch me do my thang.**
 
+## 01.16.2025
+
+**Today's Topics**
+
+* Learning Python 3 (Modules)
+
+
+
+
 ## 01.15.2025
 
 **Today's Topics**
@@ -14,7 +23,13 @@ We'll finish up strings today. I want to get through the Coding Challenge for St
 
 I went through both the Strings and Strings (Advanced) section of the Python Coding Challenges. These were way easier than I thought they would be. The Flow / Loop ones were by far the hardest which is weird because I have the most experience with those. 
 
+Project - Thread Shed
 
+I already know this is going to be a nightmare. I feel like I had to do multiple unnecessary loops to break apart these values. I have a new-found respect for Power BI and data cleaners. I can only image what they go through now. We basically had to take a huge string that was stored in a weird format (Name, Sale Amount, thread color and date) and clean it up so we can get each customer name in one list, the total sales, and the number of thread colors sold for that date. For insight, there were about 30 entries and all of this was stored in one long string. The string was internally separated by commas and each value was separated by `;,;` notation. So we had to remove that notation, break each input into one list, remove the leading and trailing whitespaces, and take each entry and put that into the proper list. We had to convert all the sales into a floating decimal by removing the dollar sign and converting it from a string to a decimal. We then totaled that up. The project also required us to see how many of each color thread we sold. There were about 7 colors and half the entries had more than one color (up to 3). We had to separate these values into two different lists and then the multi-color list was split into internal, separated lists and then all the colorss were split into indidivual elements. We then added both of those lists together and created a function to get the total amount of each color in the list. 
+
+We then made a loop and used the `.format()` method to print out a list of how many of each color were sold for that day. 
+
+Phew. 
 
 
 ## 01.14.2025
