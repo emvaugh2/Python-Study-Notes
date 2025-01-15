@@ -9,7 +9,18 @@
 
 * Learning Python 3 (Modules)
 
+Python allows us to package code into files called modules. They're often called libraries or packages. A package is really a directory that holds a collection of modules. 
 
+To use a module in a file, it usually follows the syntax: `from module_name import object_name`.
+
+A namespace isolates the functions, classes, and variables defined in the module from the code in the file doing the importing. Your local namespace, meanwhile, is where your code is run.
+
+You can give your module an aliase if you want to change the name of it for your own convenience. For example, `import module_name as name_you_pick_for_the_module`.
+
+You can import you own functions in your own librarys. Lets say you have a script called `library.py` and you have a function in it called `def duel_masters(cards)`. Say you open up another Python script and you want to use that function. At the top of your new script, you can do `from library import duel_masters` and then you can use that function in your new script. 
+
+
+Project - Time Traveler's Toolkit
 
 
 ## 01.15.2025
