@@ -10,6 +10,8 @@
 
 * Learning Python 3 (Files)
 
+Working on it. 
+
 
 ## 01.18.2025
 
