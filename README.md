@@ -49,6 +49,8 @@ You can use the `.items()` method to get both the key and the value. The syntax 
 
 Project - Scrabble
 
+This project was pretty straight forward. Just making sure we can zip lists together, create a dictionary out of them, and be able to call on the values by using the keys. We also made some loops to iterate through the dictionary as well. Very useful. Check out my code in the `Scrabble.py` file. 
+
 
 ## 01.17.2025
 
