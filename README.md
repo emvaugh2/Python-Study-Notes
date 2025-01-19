@@ -3,11 +3,51 @@
 
 **I'll fill in a description later on. Just sit down and watch me do my thang.**
 
-## 01.17.2025
+
+## 01.19.2025
 
 **Today's Topics**
 
-* Learning Python 3 (Modules)
+* Learning Python 3 (Files)
+
+
+## 01.18.2025
+
+**Today's Topics**
+
+* Learning Python 3 (Dictionaries)
+
+
+Dictionary - unordered set of key:value pairs (sounds like a database). Uses the `{}` brackets. The format is `menu = {"avocado toast": 6, "insert_key": insert_value]`. 
+
+The keys can also be numbers. The value can be any type. Even a list. Do not make a list or a dictionary the key. It doesn't work. You'll get a TypeError. You can make the value a list or dictionary though. 
+
+You can create empty dictionaries just like lists. 
+
+You can add a key:value pair to a dictionary after it was created. The syntax is `dictionary_name[key] = value`. 
+
+If you want to add multiple values at once, you can use `dictionary_name.update({insert_all_key_value_pairs})` and the syntax is literally like you creating a new dictionary. So add them in there as the key:value pairs in a normal dictionary. 
+
+You can overwite values as well. Just do the add a key:value pair syntax and put the new value that you want for that particular key. 
+
+Okay so apparently that `zip()` function and the zip object can come into handy here. We have dict comprehensions (pause) just like we have list comprehensions. Remember with `zip()`, it can combine two lists together and pair them how we want. You can use this function with the dict comprehension to make a dictionary. First, make your two lists and use the zip function to pair them together. Give that zip object a variable name. Then the syntax id `dictionary_name = {key:value for key, value in zip_variable_name}`. That's the exact syntax. The only thing you're declaring is the dictionary name and the zip object variable. That key:value stuff doesn't change. 
+
+Dictionaries have a built in method to allow you to search the dictionary for a key. Use the syntax `dictionary_name.get("key_name")`. I guess you can also declare what value you want a key to return if the key doesn't exist. The syntax is `dictionary_name.get("key_name", "value_value")`. 
+
+You can use this same exact syntax to remove a value from the dictionary but instead of `.get()`, you would use `.pop()` which you're already familiar with. 
+
+Hmm so apparently when you do the `.get()` and `.pop()` methods, it will return the value of the key and then either keep it or delete it, respectively. So it will call it first and then take the necessary action. 
+
+You can use the `.list()` and `.keys()` to return values from a dictionary into a list. I think this acts on the keys only though. The `.keys()` method returns a dict_keys object so be aware. You cant modify this. 
+
+Now to the values. There is a method for this as well called `.values()`. This also returns a dict_values object. Be aware. 
+
+So you can use an if loop to iterate through the dict object (whether that's keys or values) in order to add that to a variable or a list. Or another dictionary. So just keep that in mind if you want to extract the values out of a dictionary. 
+
+You can use the `.items()` method to get both the key and the value. The syntax for the loop for this is `for <arbitrary_key_name>, <arbitrary_value_name> in <dictionary_name>.items():` and then iterate through all of them. 
+
+
+Project - Scrabble
 
 
 ## 01.17.2025
@@ -21,7 +61,7 @@ Project - Time Traveler's Toolkit
 
 Okay guess we're finishing this today. Had a rough week. 
 
-Okay so I didn't really like this lab because it wasn't very clear what they were asking for. The instructions were just vague. But we had to make a Python module with a function in it and then import that module (and function) with a few other modules to make a time traveler's message. It was smooth enough until the end I had to call the function from a different script and it was saying the function wasn't defined. I'm like I definitely defined it and imported the module. Apparently, you have to put the module name with a period before the function name in order to call it specifically. Or, you can call the specific function in the module at the beginning of your script in order for your file to know exactly where the function is. Just learned something new. 
+Okay so I didn't really like this lab because it wasn't very clear what they were asking for. The instructions were just vague. But we had to make a Python module with a function in it and then import that module (and function) with a few other modules to make a time traveler's message. It was smooth enough until the end I had to call the function from a different script and it was saying the function wasn't defined. I'm like I definitely defined it and imported the module. Apparently, you have to put the module name with a period before the function name in order to call it specifically. Or, you can call the specific function in the module at the beginning of your script in order for your file to know exactly where the function is. Just learned something new. You can check my code in the `Custom_Module.py` script and the `TimeTravelersToolkit.py` script. 
 
 ## 01.16.2025
 
