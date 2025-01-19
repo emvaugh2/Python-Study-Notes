@@ -9,6 +9,20 @@
 
 * Learning Python 3 (Modules)
 
+
+## 01.17.2025
+
+**Today's Topics**
+
+* Learning Python 3 (Modules)
+
+
+Project - Time Traveler's Toolkit
+
+Okay guess we're finishing this today. Had a rough week. 
+
+Okay so I didn't really like this lab because it wasn't very clear what they were asking for. The instructions were just vague. But we had to make a Python module with a function in it and then import that module (and function) with a few other modules to make a time traveler's message. It was smooth enough until the end I had to call the function from a different script and it was saying the function wasn't defined. I'm like I definitely defined it and imported the module. Apparently, you have to put the module name with a period before the function name in order to call it specifically. Or, you can call the specific function in the module at the beginning of your script in order for your file to know exactly where the function is. Just learned something new. 
+
 ## 01.16.2025
 
 **Today's Topics**
