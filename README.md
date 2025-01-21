@@ -26,7 +26,21 @@ Working on it.
 
 * Learning Python 3 (Files)
 
-Working on it. 
+You can think of each file as an individual container of related information. A `.py` file is also a file. 
+
+There are some methods for modifying files. You have `.readlines()`, `.readline()`, `.write()`, etc. 
+
+We'll go over syntax later but Python has a build in context manager that lets Python know when to open and close files. Without it, we would have to manually close the file after our block indent section. That's why our `with open()` syntax looks like a loop or something. This is the context manager at work. 
+
+CSV files are just plain text files. Remember, CSV stands for command separated values. 
+
+Now, if we just did the `.read()` method on a CSV file, it will get all the values of the CSV file but the output would just be one long string (remember that store project we did? lets never have our output as just one string). So we can use the `.DictReader()` method to put our CSV values into a dictionary. You also have to first import your csv library using `import csv`. 
+
+
+
+
+
+
 
 
 ## 01.18.2025
