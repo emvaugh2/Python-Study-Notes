@@ -7,9 +7,9 @@
 
 **Today's Topics**
 
-* Learning Python 3 (Files)
+* Learning Python 3 (Classes)
 
-Working on it. 
+Last chapter! Lets do it. 
 
 ## 01.20.2025
 
@@ -17,7 +17,11 @@ Working on it.
 
 * Learning Python 3 (Files)
 
-Working on it. 
+Project - Hacking the Fender
+
+Okay I had to completely rely on the syntax from these lessons in order to make it through this project. I didn't take the best notes so I forgot how to iterate through these dictionary objects. I'm actually not even too strong on dictionaries to begin with, let alone manipulating files like dictionaries. Also, the instructions were not very explicitly stated so I had to really make sure I ran the code correctly myself which is 1 thing I don't like about Codecademy. I think they need to have an IDE or whatever so we can just run parts of our code just to see what they do. Just because I don't get an output error doesn't mean I'm getting the output I wanted. Anyway, the project was pretty much taking a compromised password file, exporting that information into another file, writing a message in JSON, and then replacing the corrupted file with the signature of another hacker to throw off the original hacker. We did all of this through file manipulation. For more code, please check out the `HackingTheFender.py` file in this repo. 
+
+
 
 
 ## 01.19.2025
@@ -36,9 +40,7 @@ CSV files are just plain text files. Remember, CSV stands for command separated 
 
 Now, if we just did the `.read()` method on a CSV file, it will get all the values of the CSV file but the output would just be one long string (remember that store project we did? lets never have our output as just one string). So we can use the `.DictReader()` method to put our CSV values into a dictionary. You also have to first import your csv library using `import csv`. 
 
-
-
-
+This also applies to JSON files. Thank God. 
 
 
 
