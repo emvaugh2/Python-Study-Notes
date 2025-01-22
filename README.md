@@ -11,6 +11,8 @@
 
 Last chapter! Lets do it. 
 
+You can determine an object's type by using the `type()` command. Really you should do `print(type(<insert_variable>))`. 
+
 ## 01.20.2025
 
 **Today's Topics**
