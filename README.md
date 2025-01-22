@@ -3,6 +3,14 @@
 
 **I'll fill in a description later on. Just sit down and watch me do my thang.**
 
+
+## 01.22.2025
+
+**Today's Topics**
+
+* Learning Python 3 (Classes)
+
+
 ## 01.21.2025
 
 **Today's Topics**
@@ -14,6 +22,22 @@ Last chapter! Lets do it.
 You can determine an object's type by using the `type()` command. Really you should do `print(type(<insert_variable>))`. 
 
 You can define your own class type. A class is a template for a data type. It describes the kinds of information that class will hold and how a programmer will interact with that data. 
+
+A class must be instantiated after it has been defined. You have to create an instance of the class. Instantiating a class looks a lot like calling a function. 
+
+A class instance is also called an object. The pattern of defining classes and creating objects to represent the responsibilities of a program is known as Object Oriented Programming (OOP). When you use the `type()` syntax on a class object, you'll get the output `__main__.<class-name>` and the `__main__` part means "this current file that we're running". So basically "within this script". 
+
+When we want the same data to be available to every instance of a class, we use a class variable. We define this in the indented part of the class definition. THESE ARE NOT THE SAME but think of it like a tag. A group tag. Each object will have this tag. In the example, they denoted the class variable (or tag) of `title = "Rockstar"`. Say we have a class named `class Musician:` and it has that title in the indented space. If we do `drummer = Musician()`, the drummer will be a part of the class object of Musician AND if you do print(drummer.title), guess what the result will be? It will be "Rockstar". So this isn't a tag but for now, think of it like one. Think of it as an attribute!
+
+OOOOOOHHHH I think this is clicking. So now we're going over methods. Remeber methods were just extensions of commands we already knew? And packages we imported that had additional methods? I think defining a class is the same thing as like, creating your own library in a since. And with that being said, we've already went over different types of objects like zip objects, random objects, stuff like that? I think that's what they mean by Object Oriented Programming. You can create your own objects that behave the way you want them to behave and your own libraries. 
+
+So we're creating a method inside of our class. We're basically defining the method the same way we define a function. The first argument of this method function will always be `self`. Say you have a class named Dog and it has a method called time_explanation (think of this like a custom function inside the class). If you assign a variable to this class `pipi_pitbull = Dog()` and you want to use that method (in our case, this method is just an explanation but it could be a computing function or something more useful), you would say `pipi_pitbull.time_explanation()` and it will deliver that information. 
+
+It's weird having to create an instance of an object and then using that instance to call upon the object and it's methods. I guess this is the thing as importing a library and using an alias for the library. Trying to wrap my head around it. 
+
+And we've finally made it to constructors and the `__init__()` method. I'm going to pause it here because my brain is fried from doing so much work at work today. Plus, I truly want to know how this works because this was a part of the HTTP method when doing the Cloud Resume Challenge. 
+
+
 
 ## 01.20.2025
 
