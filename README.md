@@ -13,6 +13,8 @@ Last chapter! Lets do it.
 
 You can determine an object's type by using the `type()` command. Really you should do `print(type(<insert_variable>))`. 
 
+You can define your own class type. A class is a template for a data type. It describes the kinds of information that class will hold and how a programmer will interact with that data. 
+
 ## 01.20.2025
 
 **Today's Topics**
