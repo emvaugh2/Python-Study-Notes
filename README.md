@@ -3,12 +3,21 @@
 
 **I'll fill in a description later on. Just sit down and watch me do my thang.**
 
+## 01.23.2025
+
+**Today's Topics**
+
+* Learning Python 3 (Classes)
 
 ## 01.22.2025
 
 **Today's Topics**
 
 * Learning Python 3 (Classes)
+
+`__init__()` is a double underscore method. It's used to initialize a new created object. It's called every time the class is instantiated. 
+
+Methods that are used to prepare an object being instantiated are called constructors. 
 
 
 ## 01.21.2025
