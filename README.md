@@ -3,6 +3,12 @@
 
 **I'll fill in a description later on. Just sit down and watch me do my thang.**
 
+## 01.27.2025
+
+**Today's Topics**
+
+* Automate the Boring Stuff with Python
+
 ## 01.26.2025
 
 **Today's Topics**
