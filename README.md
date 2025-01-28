@@ -7,13 +7,21 @@
 
 **Today's Topics**
 
-* Automate the Boring Stuff with Python
+* Automate the Boring Stuff with Python (Chapter 1)
+
+Alright! Last segment of Python before I'm done learning the basics of coding. We're moving onto projects after this. Lets get started. 
+
+
 
 ## 01.26.2025
 
 **Today's Topics**
 
 * Learning Python 3 (Classes)
+
+Alright now for the last part. We can use functions within the class to define our own methods for the class. So just make your function and give it a name. This will be the method that you use to call your function. Think of an attribute (data) as like a stationary value and think of a method as an action. Usually you'll pass an additional argument to the method but you call on the method the same way you call on the attribute. I'm too tired to show you how to do that right now though. 
+
+Last but not least (maybe least), you can use the `hasattr()` and `getattr()` functions outside of your class to see if an object has that particular attribute or to get the value of that attribute, respectively. Please look at the syntax for this. I don't remember what is was. 
 
 
 ## 01.25.2025
@@ -22,6 +30,7 @@
 
 * Learning Python 3 (Classes)
 
+Okay lets go over to instance variables. So instance variables are specific to that particular object. Say we have the attributes health, speed, and defense as instance attributes. We may to define that at the beginning when we're creating our object. Before we get into instance variables, lets talk about the constructor "function" or "method" called the `__init__` function. We can use this as a way to construct all of our objects so they have all the same parameters (such as health, speed, and defense even if they are different values. You will always pass the argument `self` to this function but you can add additional parameters afterwards. It would look something like `def __init___(self, health, speed, offense)` and then you would refer to each parameters below as `self.health = health`, `self.speed = speed`, and `self.defense = defense`. It's weird, I know. But that's just the syntax and that's how you have to refer to each variable in the rest of the class. 
 
 ## 01.24.2025
 
@@ -29,12 +38,24 @@
 
 * Learning Python 3 (Classes)
 
+Back to classes. So previously, I said we need to create an instance of a class. This is like in containers where you create the image and build that from scratch. Then you actually have to create an instance of the container image that you create that will run. This is the same thing as an object. The object is that particular instance of the class that you create. 
+
+Now why is this important? This is important because each object can have different properties depending on what you assign it. Now didn't we create the classes so each instance we create can be similar? Yes we did. But think of the class as a character design and each object as a different character in a Tekken game. We want each character to have arms, legs and do combos but each character will do their combos differently. The kicks and punches can be the equivalent of what we call an object's attribute or data. 
+
+Now, we have class variables and instance variables. Class variables (usually defined outside of the methods or constructor) will be present for each object that we create. It will be the same (unless we change it). For example, we can have the class variable `Game = "Tekken Character"` as the class variable for each object that we create. So say we have a class called Tekken (`class Tekken():`) and then we give it the above class variable `Game = "Tekken Character"`. Say we have an object called Jin so it would be `Jin = Tekken()`. If we called on the attribute using `Jin.Game`, it should return `"Tekken Character"`. 
+
 
 ## 01.23.2025
 
 **Today's Topics**
 
 * Learning Python 3 (Classes)
+
+So after talking to Chat GPT and going back over the Classes section of the coding course, I think I have a better understanding of what classes do. So classes are basically like you constructing your own libraries or modules. Packages. Whatever you want to call it. So such as `datetime` and `random` are libaries of code with their on object types and built-in methods, so are classes that you define. 
+
+So a class is simply a schematic or bliueprint or diagram for whatever type of object you want to create. You can call these objects whatever you want to but they will belong to the same class. So just like a `zip()` object is a zip object, so will whatever class you create. 
+
+Why do we need classes? Well it helps making multiple of a certain type of object or blueprint easy to replicate. You may want to treat that particular object differently then you treat the other code that you're writing. Each chunk of code can be written differently and behave the way you want it to behave. So with classes, you can define it using `class <Class-Name>:` which will create the class that you want. This is the beginning of everything. Now that you've done that, you actually have to create an instance of the class. I'll cover that in the next day's topic. 
 
 ## 01.22.2025
 
