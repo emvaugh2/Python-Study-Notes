@@ -7,7 +7,7 @@
 
 **Today's Topics**
 
-* Automate the Boring Stuff with Python (Chapter 2 - X)
+* Automate the Boring Stuff with Python (Chapter 2 - XX)
 
 
 ## 01.27.2025
