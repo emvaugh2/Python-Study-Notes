@@ -3,11 +3,71 @@
 
 **I'll fill in a description later on. Just sit down and watch me do my thang.**
 
+## 01.30.2025
+
+**Today's Topics**
+
+* Automate the Boring Stuff with Python (Chapter 4)
+
+Chapter 4 - Lists
+
+Python will give you an IndexError error message if you use an index that exceeds the number of values in your list value.
+
+
+
+## 01.29.2025
+
+**Today's Topics**
+
+* Automate the Boring Stuff with Python (Chapter 3)
+
+Chapter 3 - Functions
+
+The value `None` represents the absence of a value. This is the same thing as null or undefined. None if the return value of the function `print()`. `print()` displays text on the screen but technically it doesn't return a value. Be mindful of this. So `print()` will display your text and then after that, it will (invisibly) return None unless you run a script. Then you may see this. 
+
+`print()` automatically passes the newline character to your string. That's why your next output will be on the next line. `print()` actually has two optional arguments named `end` and `sep` where you can actually tell the print function NOT to add the newline character into it. It would look like `print('Hello', end='')`. 
+
+You can pass multiple strings to `print()` as well. You can do `print('cats', 'dogs', 'mice')` and it will display `cats dogs mice`. Notice how it's spaced out? You can use the the `sep` argument that we mentioned earlier to separate these strings by whatever delimiter you want. For example, `print('cats', 'dogs', 'mice', sep=',')` would evaluate to `cats,dogs,mice`. 
+
+Parameters and variables that are assigned in a called function are said to exist in that function’s local scope. Variables that are assigned outside all functions are said to exist in the global scope. Think of this in terms of class and instance variables. You would define a global variable in like, the beginning of your script/program. You would define a local variable within your function. The function doesn't remember any of them.
+
+To make a variable global within a function, use the `global <variable_name>` syntax. 
+
+You can handle errors (that red ouput on the screen when you mess up) using the `try` and `except` clauses. The code that could potentially have an error is put in an `try` clause. The program execution moves to the start of a following `except` clause if an error happens. Review the below code:
+
+def spam(divideBy):
+    try:
+        return 42 / divideBy
+    except ZeroDivisionError:
+        print('Error: Invalid argument.')
+
+print(spam(2))
+print(spam(12))
+print(spam(0))
+print(spam(1))
+
+Wow that is so cool!!!
+
 ## 01.28.2025
 
 **Today's Topics**
 
-* Automate the Boring Stuff with Python (Chapter 2 - XX)
+* Automate the Boring Stuff with Python (Chapter 2)
+
+Chapter 2 - Flow Control
+
+Remember, <, >, <=, and >= evaluate down to Boolean values. 
+
+if statements only executes it's clause (clause = block of indented code) if the statement is True. Otherwise, it will skip the clause if the condition is False. 
+
+"When there is a chain of elif statements, only one or none of the clauses will be executed. Once one of the statements’ conditions is found to be True, the rest of the elif clauses are automatically skipped."
+
+`break` statements will exit out of a while loop no matter what part of the clause (block) it's located in. Use this as a way to exit infinite loops. 
+
+When the program reaches a continue statement, the program execution jumps straight back to the beginning of the start of the loop and reevaluates the loop's condition. Think about it like when a loop reaches the end of the loop and starts back at the beginning. The `continue` statement would be the equivalent of reaching the end of a loop. 
+
+You can make a program terminate before it reaches the end of the script. You need to import the `sys` module first and use the `sys.exit()` function. 
+
 
 
 ## 01.27.2025
