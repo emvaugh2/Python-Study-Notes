@@ -3,13 +3,26 @@
 
 **I'll fill in a description later on. Just sit down and watch me do my thang.**
 
+## 01.28.2025
+
+**Today's Topics**
+
+* Automate the Boring Stuff with Python (Chapter 2 - X)
+
+
 ## 01.27.2025
 
 **Today's Topics**
 
-* Automate the Boring Stuff with Python (Chapter 1)
+* Automate the Boring Stuff with Python (Chapter 1 - 2)
 
 Alright! Last segment of Python before I'm done learning the basics of coding. We're moving onto projects after this. Lets get started. 
+
+Chapter 1 - Python Basics
+
+This is exactly what it says. Everything here was very straight forward. No need to say anything else.
+
+Chapter 2 - Flow Control
 
 
 
