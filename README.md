@@ -3,6 +3,49 @@
 
 **I'll fill in a description later on. Just sit down and watch me do my thang.**
 
+## 02.01.2025
+
+**Today's Topics**
+
+* Automate the Boring Stuff with Python (Chapter 6)
+
+Chapter 6 - Manipulating Strings
+
+Just came across string interpolation and f-strings and this is a game changer! I never liked having to use the quotes and the `.format()` just seemed a little more tedious than it needed to be. We're definitely using f-strings from now on and I'll make sure I understand the string interpolation because I see that everywhere. Just never knew how to read it. 
+
+>>> name = 'Al'
+>>> age = 4000
+>>> f'My name is {name}. Next year I will be {age + 1}.''
+
+The above is an example of f-string format. 
+
+`.isupper()` and `.islower()` methods return Boolean values if a value in that string is uppercase or lowercase, respectively. Just in case you ever need this. There are more than just these two as well so be on the look out for the `.is<fill_in_the_blank>` methods. 
+
+You have the `startswith()` and `endswith()` operators as well that return Boolean values if you compare two strings. This is pretty straightforward. 
+
+You can use the `.rjust()`, `.ljust()`, and `center()` methods on a string followed by an integer value to put that integer number of spaces (or whatever character you choose) to the right, left, and both (for center, the text will be in the middle) of the text. That's pretty cool too. 
+
+There's an `.rstrip()` and `.lstrip()` versions of the `.strip()` command. 
+
+
+
+## 01.31.2025
+
+**Today's Topics**
+
+* Automate the Boring Stuff with Python (Chapter 5)
+
+Chapter 5 - Dictionaries and Structuring Data
+
+Dictionaries are not ordered. You don't have an integer index. The index is the key. 
+
+You can use the `in` and `not in` operators on dictionaries as well. 
+
+Use the `.get(<key>, <default_value>)` to get the value of whatever key in your dictionary. If the key doesn't exist, it will create the key and give it your default value. 
+
+Import the `pprint` (pretty print) module to display your dictionaries in a more readable format. This would've been so helpful. `pprint()` and `pformat()`. 
+
+
 ## 01.30.2025
 
 **Today's Topics**
