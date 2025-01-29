@@ -13,6 +13,28 @@ Chapter 4 - Lists
 
 Python will give you an IndexError error message if you use an index that exceeds the number of values in your list value.
 
+Remember the `in` and `not in` operators for lists. You can do `<item> in [<list-or-list-name]` and Python will return True or False. 
+
+Another way to write a for loop with the index and range() function is to use the `enumerate()` function. For example,
+
+`supplies = ['pens', 'staplers', 'flamethrowers', 'binders']`
+
+`for index, item in enumerate(supplies):`
+    `print('Index ' + str(index) + ' in supplies is: ' + item)`
+
+You know the syntax `var += 1`? Well there are other operator versions of that as well. You know the `var -= 1` option already but there is a multiplication, division, and remainder version to. Just in case you need it. 
+
+To sort a list in the reverse way, use `<list_name>.sort(reverse=True)`. 
+
+There's also a `.reverse()` list method that reverses the items in a list. This is not the same thing as sort but I guess you can sort the list and then reverse it too. 
+
+These list methods act on lists "in place". They don't return a value. They just modify the list. So don't try to assign these method syntax commands to another variable. They'll just act on the list and you can recall that list. 
+
+Remember, tuples are immutable just like strings. You cant modify them after you've created them unlike a list. 
+
+" If you need an ordered sequence of values that never changes, use a tuple. A second benefit of using tuples instead of lists is that, because they are immutable and their contents don’t change, Python can implement some optimizations that make code using tuples slightly faster than code using lists."
+
+You can also use the `list()` and `tuple()` commands to convert a value into a list or a tuple.
 
 
 ## 01.29.2025
