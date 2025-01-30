@@ -1,7 +1,7 @@
 # Python-Study-Notes
 
 
-**I'll fill in a description later on. Just sit down and watch me do my thang.**
+**Greetings and welcome to my public study notes for Python! It seems like a programming language is definitely needed when applying for cloud engineer roles so I'm using this space to strengthen my skills. I already have some background in MATLAB. I've completed the beginner's course in Codecademy and I'm going to be periodically working through Automate the Boring Stuff with Python. Stay tuned!**
 
 ## 02.01.2025
 
